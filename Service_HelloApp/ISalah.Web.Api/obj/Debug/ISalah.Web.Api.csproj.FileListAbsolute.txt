@@ -1,0 +1,10 @@
+D:\FYP\Service_HelloApp\ISalah.Web.Api\obj\Debug\ResolveAssemblyReference.cache
+D:\FYP\Service_HelloApp\ISalah.Web.Api\bin\ISalah.Web.Api.dll
+D:\FYP\Service_HelloApp\ISalah.Web.Api\bin\ISalah.Web.Api.pdb
+D:\FYP\Service_HelloApp\ISalah.Web.Api\bin\ISalah.dll
+D:\FYP\Service_HelloApp\ISalah.Web.Api\bin\ISalah.pdb
+D:\FYP\Service_HelloApp\ISalah.Web.Api\obj\Debug\ISalah.Web.Api.dll
+D:\FYP\Service_HelloApp\ISalah.Web.Api\obj\Debug\ISalah.Web.Api.pdb
+C:\Users\M akbar\Desktop\Fyp (1)\Service_HelloApp\Service_HelloApp\ISalah.Web.Api\obj\Debug\ISalah.Web.Api.csprojResolveAssemblyReference.cache
+C:\Users\M akbar\Desktop\Fyp (1)\Service_HelloApp\Service_HelloApp\ISalah.Web.Api\obj\Debug\ISalah.Web.Api.dll
+C:\Users\M akbar\Desktop\Fyp (1)\Service_HelloApp\Service_HelloApp\ISalah.Web.Api\obj\Debug\ISalah.Web.Api.pdb

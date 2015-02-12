@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D58C838-5636-4E10-960D-6FCBF6502219}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISalah</RootNamespace>
+    <AssemblyName>ISalah</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database.cs" />
+    <Compile Include="DataLayer.cs" />
+    <Compile Include="Entity\Address.cs" />
+    <Compile Include="Entity\City.cs" />
+    <Compile Include="Entity\Congregation.cs" />
+    <Compile Include="Entity\CongregationTypeName.cs" />
+    <Compile Include="Entity\Country.cs" />
+    <Compile Include="Entity\GPSLOC.cs" />
+    <Compile Include="Entity\Prayer.cs" />
+    <Compile Include="Entity\PrayerTiming.cs" />
+    <Compile Include="Entity\PreachingType.cs" />
+    <Compile Include="Entity\Rights.cs" />
+    <Compile Include="Entity\Role.cs" />
+    <Compile Include="Entity\Sect.cs" />
+    <Compile Include="Entity\Source.cs" />
+    <Compile Include="Entity\State.cs" />
+    <Compile Include="Entity\User.cs" />
+    <Compile Include="Entity\UserType.cs" />
+    <Compile Include="Entity\Votes.cs" />
+    <Compile Include="Manager\Address.cs" />
+    <Compile Include="Manager\City.cs" />
+    <Compile Include="Manager\Congregation.cs" />
+    <Compile Include="Manager\CongregationTypeName.cs" />
+    <Compile Include="Manager\Country.cs" />
+    <Compile Include="Manager\GPSLOC.cs" />
+    <Compile Include="Manager\Prayers.cs" />
+    <Compile Include="Manager\PrayerTiming.cs" />
+    <Compile Include="Manager\Right.cs" />
+    <Compile Include="Manager\Role.cs" />
+    <Compile Include="Manager\Sect.cs" />
+    <Compile Include="Manager\SourceData.cs" />
+    <Compile Include="Manager\State.cs" />
+    <Compile Include="Manager\UserData.cs" />
+    <Compile Include="Manager\UserType.cs" />
+    <Compile Include="Manager\Votes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

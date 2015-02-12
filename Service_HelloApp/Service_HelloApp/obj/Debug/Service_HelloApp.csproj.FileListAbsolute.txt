@@ -1,0 +1,5 @@
+D:\FYP\Service_HelloApp\Service_HelloApp\bin\Service_HelloApp.dll
+D:\FYP\Service_HelloApp\Service_HelloApp\bin\Service_HelloApp.pdb
+D:\FYP\Service_HelloApp\Service_HelloApp\obj\Debug\ResolveAssemblyReference.cache
+D:\FYP\Service_HelloApp\Service_HelloApp\obj\Debug\Service_HelloApp.dll
+D:\FYP\Service_HelloApp\Service_HelloApp\obj\Debug\Service_HelloApp.pdb

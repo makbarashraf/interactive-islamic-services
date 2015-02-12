@@ -1,0 +1,7 @@
+D:\FYP\Service_HelloApp\ISalah\obj\Debug\ResolveAssemblyReference.cache
+D:\FYP\Service_HelloApp\ISalah\bin\Debug\ISalah.dll
+D:\FYP\Service_HelloApp\ISalah\bin\Debug\ISalah.pdb
+D:\FYP\Service_HelloApp\ISalah\obj\Debug\ISalah.dll
+D:\FYP\Service_HelloApp\ISalah\obj\Debug\ISalah.pdb
+D:\FYP\Service_HelloApp\ISalah\bin\Debug\ISalah.dll.config
+C:\Users\M akbar\Desktop\Fyp (1)\Service_HelloApp\Service_HelloApp\ISalah\obj\Debug\ISalah.dll
